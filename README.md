@@ -86,6 +86,8 @@ $0 is the name of the file script itself.
 Example.sh script that check files for foobar
 
 ``` Shell
+#/bin/bash
+
 echo "Starting program at $(date)"
 
 echo "Running program $0 with $# arguments with pid $$"
