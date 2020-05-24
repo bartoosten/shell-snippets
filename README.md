@@ -67,7 +67,7 @@ $1 is the first variable of a shell script.
 
 $0 is the name of the file script itself.
 
-====
+===
 
 Example.sh script that check files for foobar
 
