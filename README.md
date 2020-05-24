@@ -58,13 +58,13 @@ Working with values
 ``` Bash
 foo=bar
 echo $foo
-// Prints out: 'Bar'
+# Prints out: 'Bar'
 
 echo "Value is $foo"
-// Print out: "Value is bar"
+# Print out: "Value is bar"
 
 echo 'Value is $foo'
-// Print out: "Value is $foo"
+# Print out: "Value is $foo"
 ```
 
 ----
