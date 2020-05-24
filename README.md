@@ -23,6 +23,7 @@ https://youtu.be/kgII-YWo3Zw
 - cd ./home (change directory in the current directory
 - ls (Lists files in the directory)
 - ls -l (List files with extra information)
+- ls *.sh (Only files with .sh extension)
 - cd ~ (Goes to home directory)
 - cd - (Goes to the previous directory)
 - mv current-name-folder new-name-folder (Change name or file of folder)
