@@ -8,6 +8,8 @@ https://youtu.be/kgII-YWo3Zw
 
 https://youtu.be/a6Q8Na575qc
 
+https://youtu.be/sz_dsktIjt4
+
 ## Example
 
 ### Standard
@@ -114,4 +116,7 @@ Spaces are reserved with Scripting is Bash
 Single space don't take in account variables
 
 PID means process id $$
+
+Data Wrangling, formatting data
+
 
