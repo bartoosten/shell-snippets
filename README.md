@@ -22,6 +22,10 @@ https://youtu.be/Z56Jmr9Z34Q
 - ls -l (List files with extra information)
 - cd ~ (Goes to home directory)
 - cd - (Goes to the previous directory)
+- mv current-name-folder new-name-folder (Change name or file of folder)
+- cp (copy)
+- rm (remove)
+- clear (control l - also works)
 
 
 ## Extra Information
