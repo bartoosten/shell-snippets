@@ -67,6 +67,24 @@ $1 is the first variable of a shell script.
 
 $0 is the name of the file script itself.
 
+====
+
+Example.sh script that check files for foobar
+
+``` Shell
+    echo "Starting program at $(date)"
+
+    echo "Running program $0 with $# arguments with pid $$"
+
+    for file in "$@"; do
+        grep foobar "$file" > /dev/null 2> /dev/null
+        if [[ "$?" -ne 0]]; then
+            echo "File $file does not have foobar, adding one"
+            echo "# foobar" >> "$file"
+        fi
+    done
+```
+
 
 ## Extra Information
 
@@ -75,4 +93,6 @@ Absolute Paths vs Relative Paths
 Spaces are reserved with Scripting is Bash
 
 Single space don't take in account variables
+
+PID means process id $$
 
