@@ -36,9 +36,9 @@ https://youtu.be/Z56Jmr9Z34Q
 - open hello.txt (open a file)
 - open ./ (open current folder)
 
-### Scripting
+### Scripting in Bash
 ```
-  foo = bar
+  foo=bar
   echo $foo
 ```
 
