@@ -12,6 +12,7 @@ https://youtu.be/Z56Jmr9Z34Q
 - echo $PATH
 - which echo
 - --help
+- sudo
 
 ### Navigation
 - pwd (print working directory)
@@ -31,6 +32,9 @@ https://youtu.be/Z56Jmr9Z34Q
 - echo "Hello" > hello.txt (creates file with hello) in current directory
 - echo "Hello Again." > hello.txt (appents the file with new content)
 - cat hello.txt (prints content of a file)
+- ls | >> hello.txt (pipe)
+- open hello.txt (open a file)
+- open ./ (open current folder)
 
 
 ## Extra Information
