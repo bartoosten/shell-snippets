@@ -36,6 +36,8 @@ https://youtu.be/kgII-YWo3Zw
 - find . -name "*.txt" (find all files with the .txt extension)
 - find . -name "*.txt -exec rm {} \; (remove those files)
 - grep again hello.txt (Check the string in the file of hello.txt)
+- history (prints out all the executed commands)
+- history 1 | grep mkdir (print out all the executed commands of 'mkdir')
 
 
 ### Creation
@@ -64,6 +66,8 @@ echo "Value is $foo"
 echo 'Value is $foo'
 // Print out: "Value is $foo"
 ```
+
+----
 
 Creating a shell script
 ``` Shell
