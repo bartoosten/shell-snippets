@@ -38,9 +38,13 @@ https://youtu.be/kgII-YWo3Zw
 - open ./ (open current folder)
 
 ### Scripting in Bash
-```
+``` Bash
   foo=bar
   echo $foo
+  // Prints out: 'Bar'
+  
+  echo "Value is $foo"
+  // Print out: "Value is bar"
 ```
 
 
