@@ -25,6 +25,7 @@ https://youtu.be/kgII-YWo3Zw
 - cd ./home (change directory in the current directory
 - ls (Lists files in the directory)
 - ls -l (List files with extra information)
+- ls -R (List only the directories with paths)
 - ls *.sh (Only files with .sh extension)
 - cd ~ (Goes to home directory)
 - cd - (Goes to the previous directory)
