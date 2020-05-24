@@ -37,8 +37,11 @@ https://youtu.be/kgII-YWo3Zw
 - ls | >> hello.txt (pipe)
 - open hello.txt (open a file)
 - open ./ (open current folder)
+- source mcd.sh (load a script into your shell
 
 ### Scripting in Bash
+
+Working with values
 ``` Bash
   foo=bar
   echo $foo
@@ -47,8 +50,16 @@ https://youtu.be/kgII-YWo3Zw
   echo "Value is $foo"
   // Print out: "Value is bar"
   
-    echo 'Value is $foo'
+  echo 'Value is $foo'
   // Print out: "Value is $foo"
+```
+
+Creating a shell script
+``` Shell
+  mcd () {
+      mkdir -p "$1"
+      cd "$1"
+  }
 ```
 
 
