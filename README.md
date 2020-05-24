@@ -16,6 +16,7 @@ https://youtu.be/kgII-YWo3Zw
 - --help
 - sudo
 - convert image.png image.jpg
+- man mv (Show manuel for the move command, close with cmd -q)
 
 ### Navigation
 - pwd (print working directory)
