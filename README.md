@@ -29,6 +29,7 @@ https://youtu.be/Z56Jmr9Z34Q
 
 ### Creation
 - echo hello > hello.txt (creates file with hello) in current directory
+- cat hello.txt (prints content of a file)
 
 
 ## Extra Information
