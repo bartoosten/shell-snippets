@@ -32,7 +32,9 @@ https://youtu.be/kgII-YWo3Zw
 - cp (copy)
 - rm (remove)
 - clear (control l - also works)
-- find . -name test-folder -type d (find in current directory with name 'test-folder' and type 'directory'
+- find . -name test-folder -type d (find in current directory with name 'test-folder' and type 'directory')
+- find . -name "*.txt" (find all files with the .txt extension)
+- find . -name "*.txt -exec rm {} \; (remove those files)
 
 ### Creation
 - echo "Hello" > hello.txt (creates file with hello) in current directory
