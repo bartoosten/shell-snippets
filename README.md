@@ -15,6 +15,7 @@ https://youtu.be/kgII-YWo3Zw
 - which echo
 - --help
 - sudo
+- convert image.png image.jpg
 
 ### Navigation
 - pwd (print working directory)
