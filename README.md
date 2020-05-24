@@ -28,7 +28,8 @@ https://youtu.be/Z56Jmr9Z34Q
 - clear (control l - also works)
 
 ### Creation
-- echo hello > hello.txt (creates file with hello) in current directory
+- echo "Hello" > hello.txt (creates file with hello) in current directory
+- echo "Hello Again." > hello.txt (appents the file with new content)
 - cat hello.txt (prints content of a file)
 
 
