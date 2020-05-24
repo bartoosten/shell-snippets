@@ -45,11 +45,17 @@ https://youtu.be/kgII-YWo3Zw
   
   echo "Value is $foo"
   // Print out: "Value is bar"
+  
+    echo 'Value is $foo'
+  // Print out: "Value is $foo"
 ```
 
 
 ## Extra Information
 
 Absolute Paths vs Relative Paths
-Space are reserved with Scripting is Bash
+
+Spaces are reserved with Scripting is Bash
+
+Single space don't take in account variables
 
