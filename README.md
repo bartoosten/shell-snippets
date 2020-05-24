@@ -43,6 +43,7 @@ https://youtu.be/sz_dsktIjt4
 - grep again hello.txt (Check the string in the file of hello.txt)
 - history (prints out all the executed commands)
 - history 1 | grep mkdir (print out all the executed commands of 'mkdir')
+- tree (show tree of the current directory)
 
 
 ### Creation
