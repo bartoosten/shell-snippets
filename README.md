@@ -40,6 +40,9 @@ https://youtu.be/kgII-YWo3Zw
 - open hello.txt (open a file)
 - open ./ (open current folder)
 - source mcd.sh (load a script into your shell
+- touch exmaple
+- touch example-1 example-2
+- touch example-{3,4,5}
 
 ### Scripting in Bash
 
