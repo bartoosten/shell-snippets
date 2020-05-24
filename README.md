@@ -3,6 +3,7 @@ Shell Snippets
 
 ## Source
 https://youtu.be/Z56Jmr9Z34Q
+https://youtu.be/kgII-YWo3Zw
 
 ## Example
 
@@ -46,4 +47,5 @@ https://youtu.be/Z56Jmr9Z34Q
 ## Extra Information
 
 Absolute Paths vs Relative Paths
+Space are reserved with Scripting is Bash
 
