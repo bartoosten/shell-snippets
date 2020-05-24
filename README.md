@@ -35,6 +35,8 @@ https://youtu.be/kgII-YWo3Zw
 - find . -name test-folder -type d (find in current directory with name 'test-folder' and type 'directory')
 - find . -name "*.txt" (find all files with the .txt extension)
 - find . -name "*.txt -exec rm {} \; (remove those files)
+- grep again hello.txt (Check the string in the file of hello.txt)
+
 
 ### Creation
 - echo "Hello" > hello.txt (creates file with hello) in current directory
@@ -52,23 +54,23 @@ https://youtu.be/kgII-YWo3Zw
 
 Working with values
 ``` Bash
-  foo=bar
-  echo $foo
-  // Prints out: 'Bar'
-  
-  echo "Value is $foo"
-  // Print out: "Value is bar"
-  
-  echo 'Value is $foo'
-  // Print out: "Value is $foo"
+foo=bar
+echo $foo
+// Prints out: 'Bar'
+
+echo "Value is $foo"
+// Print out: "Value is bar"
+
+echo 'Value is $foo'
+// Print out: "Value is $foo"
 ```
 
 Creating a shell script
 ``` Shell
-  mcd () {
-      mkdir -p "$1"
-      cd "$1"
-  }
+mcd () {
+    mkdir -p "$1"
+    cd "$1"
+}
 ```
 
 $1 is the first variable of a shell script.
@@ -80,17 +82,17 @@ $0 is the name of the file script itself.
 Example.sh script that check files for foobar
 
 ``` Shell
-    echo "Starting program at $(date)"
+echo "Starting program at $(date)"
 
-    echo "Running program $0 with $# arguments with pid $$"
+echo "Running program $0 with $# arguments with pid $$"
 
-    for file in "$@"; do
-        grep foobar "$file" > /dev/null 2> /dev/null
-        if [[ "$?" -ne 0]]; then
-            echo "File $file does not have foobar, adding one"
-            echo "# foobar" >> "$file"
-        fi
-    done
+for file in "$@"; do
+    grep foobar "$file" > /dev/null 2> /dev/null
+    if [[ "$?" -ne 0]]; then
+        echo "File $file does not have foobar, adding one"
+        echo "# foobar" >> "$file"
+    fi
+done
 ```
 
 
