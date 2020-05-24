@@ -27,6 +27,9 @@ https://youtu.be/Z56Jmr9Z34Q
 - rm (remove)
 - clear (control l - also works)
 
+### Creation
+- echo hello > hello.txt (creates file with hello) in current directory
+
 
 ## Extra Information
 
